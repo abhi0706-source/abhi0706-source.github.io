@@ -1,6 +1,6 @@
 // Initialize EmailJS with your user ID
 (function () {
-    emailjs.init('service_fpu4wvr'); // Replace with your EmailJS user ID
+    emailjs.init('Abhishek Gandhi'); // Replace with your EmailJS user ID
 })();
 
 $(document).ready(function () {
@@ -77,7 +77,7 @@ $(document).ready(function () {
         };
 
         // Send email using EmailJS
-        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData)
+        emailjs.send('service_fpu4wvr', 'template_rhp8bvs', formData)
             .then(function (response) {
                 alert('Message sent successfully!');
                 $('#contact-form')[0].reset(); // Reset form after submission
