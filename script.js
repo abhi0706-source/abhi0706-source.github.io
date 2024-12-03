@@ -31,13 +31,13 @@ $(document).ready(function () {
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["Data-Sciecnce", "AI/ML", "Python-Developer", "Web-Developer"],
+        strings: ["AI/ML Engineer", "AI Researcher", "LLM Engineer", "AI Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Data-Sciecnce", "AI/ML", "Python-Developer", "Web-Developer"],
+        strings: ["AI/ML Engineer", "AI Researcher", "LLM Engineer", "AI Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
