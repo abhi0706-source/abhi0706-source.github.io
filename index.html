@@ -47,7 +47,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Abhishek Gandhi</div>
                 <div class="text-3">and working as specially for <span class="typing">Data-Science</span></div>
-                <a href="#">Hire me</a>
+                <a href="#contact">Hire me</a>
             </div>
         </div>
     </section>
@@ -121,7 +121,7 @@
 
     <!-- skills section start -->
 <!-- skills section start -->
-<section class="skills" id="skills">
+<!-- <section class="skills" id="skills">
     <div class="max-width">
         <h2 class="title">My skills</h2>
         <div class="skills-content">
@@ -178,13 +178,195 @@
             </div>
         </div>
     </div>
+</section> -->
+<section class="skills" id="skills">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Skills Section Styling */
+        .skills {
+            padding: 50px 0;
+            background-color: #f4f4f4;
+        }
+
+        .skills .max-width {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .skills-content {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .column {
+            width: 48%; /* Ensures proper spacing between columns */
+        }
+
+        .left .text {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .left p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .left a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .left a:hover {
+            background-color: #555;
+        }
+
+        .bars {
+            margin-bottom: 30px;
+        }
+
+        .bars .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .bars .info span {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .bars img {
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;
+            object-fit: contain;
+        }
+
+        .line {
+            width: 100%;
+            height: 6px;
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        .Python .line {
+            width: 95%;
+            background-color: #4b8bbe;
+        }
+
+        .PyTorch .line {
+            width: 85%;
+            background-color: #ee4c2c;
+        }
+
+        .TensorFlow .line {
+            width: 80%;
+            background-color: #ff6f20;
+        }
+
+        .FastAPI .line {
+            width: 70%;
+            background-color: #009a4e;
+        }
+
+        .LangChain .line {
+            width: 75%;
+            background-color: #3b6ff4;
+        }
+
+        .VectorDB .line {
+            width: 75%;
+            background-color: #31a2de;
+        }
+    </style>
+    <div class="max-width">
+        <h2 class="title">My Skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">
+                    My technical skills & experiences
+                </div>
+                <p>I specialize in AI/ML engineering and have worked on projects like RAG systems, content recommendation systems, and vision-based AI models. My expertise includes frameworks like LangChain, PyTorch, TensorFlow, and FastAPI. I am continually learning new technologies to enhance my capabilities. For more details, you can check my.</p>
+                <a href="https://github.com/abhi0706-source">Explore Projects</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info Python">
+                        <span><img src="Python_logo_01.svg.png" alt="Python Logo"></span>
+                        <span>95%</span>
+                    </div>
+                    <div class="line Python"></div>
+                </div>
+                <div class="bars">
+                    <div class="info Python">
+                        <span><img src="pytorch.jpeg" alt="PyTorch Logo"></span>
+                        <span>85%</span>
+                    </div>
+                    <div class="line PyTorch"></div>
+                </div>
+                <div class="bars">
+                    <div class="info Python">
+                        <span><img src="TensorFlow_logo.svg.png" alt="TensorFlow Logo"></span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line TensorFlow"></div>
+                </div>
+                <div class="bars">
+                    <div class="info Python">
+                        <span><img src="FastAPI-logo.png" alt="FastAPI Logo"></span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line FastAPI"></div>
+                </div>
+                <div class="bars">
+                    <div class="info Python">
+                        <span><img src="langchain-logo.png" alt="LangChain Logo"></span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line LangChain"></div>
+                </div>
+                <div class="bars">
+                    <div class="info Python">
+                        <span><img src="chromadb-logo.png" alt="VectorDB Logo"></span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line VectorDB"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
 <!-- Projects section start -->
 <section class="Projects" id="Projects">
     <div class="max-width">
         <h2 class="title">
-            My Projects
+            <!-- My Projects     -->
         </h2>
         <div class="carousel owl-carousel">
             <div class="card">
@@ -251,7 +433,7 @@
                                 Address
                             </div>
                             <div class="sub-title">
-                                Surat,Gujarat,India.
+                                Surat, Gujarat, India.
                             </div>
                         </div>
                     </div>
